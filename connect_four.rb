@@ -189,6 +189,7 @@ class ConnectFour
   end
 
   def print_board
+    system('clear')
     puts
     @board.each do |column|
       column.each do |element|
